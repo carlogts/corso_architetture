@@ -1,0 +1,26 @@
+#########################
+#	Gitignore	#
+#########################
+
+
+#	Exclude lucidi_laboratorio      #
+#	Exclude lucidi_lezione		#
+
+
+./lucidi_laboratorio/
+./lucidi_lezione
+
+#	Exclude Compiled Source		#
+
+*.o
+
+#  Exclude pdf or other text document	#
+
+*.pdf
+*.ods
+*.odt
+
+#	Exclude tmp file		#
+
+*.swp
+
