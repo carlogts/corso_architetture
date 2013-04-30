@@ -18,7 +18,7 @@ void main()
 				CMP EAX, 0		// EAX è = 0? Se si salta a Fine, se no continua
 				JE Fine		
 
-	Logic_and: TEST EAX, 1		// AND logico tra EAX e 1
+	Logic_and: 		TEST EAX, 1		// AND logico tra EAX e 1
 				JZ Shiftaggio
 				
 				CMP EAX, 1
@@ -27,7 +27,7 @@ void main()
 				MOV ris, 1
 				JMP Fine
 
-	Shiftaggio:	ROR EAX, 1
+	Shiftaggio:		ROR EAX, 1
 				JMP Logic_and
 
 		 Fine:  
